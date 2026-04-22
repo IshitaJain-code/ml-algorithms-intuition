@@ -39,8 +39,10 @@ ml-from-scratch/
 
 Each algorithm includes:
 - 📘 `theory.md` → intuition + math  
-- ⚙️ `implementation.py` → from-scratch code  
-- 📊 `example.ipynb` → visualization and usage  
+- ⚙️ `implementation.py` → from-scratch code
+- 🤖 `sklearn_model.py`→ sklearn version 
+- 📊 `example.ipynb` → visualization and usage
+
 
 ---
 
