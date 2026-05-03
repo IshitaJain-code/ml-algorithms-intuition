@@ -34,7 +34,7 @@ This line is called the **best-fit line**.
 ## 🧮 Mathematical Representation
 
 
-::contentReference[oaicite:0]{index=0}
+y = mx + b
 
 
 Where:
@@ -49,7 +49,7 @@ Where:
 
 For multiple input features:
 
-:contentReference[oaicite:1]{index=1}
+y = w₁x₁ + w₂x₂ + ... + wₙxₙ + b
 
 ---
 
@@ -59,12 +59,13 @@ To measure how well our model is performing, we use a cost function.
 
 The most common one is **Mean Squared Error (MSE)**:
 
-:contentReference[oaicite:2]{index=2}
+MSE = (1/n) * Σ(yᵢ - ŷᵢ)²
+
 
 Where:
-- \( y_i \) → actual value  
-- \( \hat{y}_i \) → predicted value  
-- \( n \) → number of data points  
+- yᵢ → actual value  
+- ŷ → predicted value  
+- n → number of data points  
 
 👉 The goal is to **minimize this error**.
 
